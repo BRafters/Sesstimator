@@ -2,6 +2,9 @@
   "name": "sesstimator",
   "module": "src/index.ts",
   "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
   "devDependencies": {
     "bun-types": "latest"
   },
@@ -9,6 +12,9 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
-    "firebase": "^10.11.1"
+    "@types/jest": "^29.5.12",
+    "firebase": "^10.11.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
   }
 }
