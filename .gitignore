@@ -1,4 +1,4 @@
-
+.fleet
 # Logs
 logs
 _.log
@@ -148,4 +148,3 @@ dist
 
 # Finder (MacOS) folder config
 .DS_Store
-
