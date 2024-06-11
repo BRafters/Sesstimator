@@ -2,6 +2,7 @@
 import Nav from "./components/Nav.vue";
 import NamePrompt from './components/NamePrompt.vue';
 import Footer from "./components/Footer.vue";
+import JoiningOrHosting from "@/components/JoiningOrHosting.vue";
 </script>
 
 <template>
@@ -10,7 +11,8 @@ import Footer from "./components/Footer.vue";
             <Nav></Nav>
         </div>
         <div class="flex flex-col flex-grow justify-center items-center">
-            <NamePrompt></NamePrompt>
+            <!--<NamePrompt></NamePrompt>-->
+            <JoiningOrHosting></JoiningOrHosting>
             <Footer class="mt-8"></Footer>
         </div>
     </div>
